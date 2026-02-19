@@ -10,7 +10,7 @@ function updateValueInInputData(input_value, input_name) {
           if (input_value == "true") {
             $(`[data-name='${input_name}']`)
               .siblings(".w-checkbox-input")
-              .addClass("w--redirected-checked");127.0.0.1:3001
+              .addClass("w--redirected-checked");
           }
         }
       }
